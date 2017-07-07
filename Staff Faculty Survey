@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Staff/Faculty Survey</title>
+</head>
+<body>
+  <font face="arial">
+<h1>Staff and Faculty Advising Survey</h1>
+<form method="post"action="mailto:jsmuller@udel.edu">
+  <p> What type of advisor are you?
+    <br><input type="radio" name="Type" value="Faculty Advisor"checked>Faculty Advisor
+    <br><input type="radio" name="Type" value="Professional Advisor">Professional Advisor
+    <p>How many years have you been advising students?
+    <br><input type="radio" name="Years" value="Less than 1 year"checked>Less than 1 year
+    <br><input type="radio" name="Years" value="1-3 years">1-3 years
+    <br><input type="radio" name="Years" value="3-5 years">3-5 years
+    <br><input type="radio" name="Years" value="5+ years">5+ years
+    <p>How many students do you currently advise?
+      <br><input type="radio" name="Students" value="Less than 100 students"checked>Less than 100 students
+      <br><input type="radio" name="Students" value="100-200 students">100-200 students
+      <br><input type="radio" name="Students" value="200-300 students">200-300 students
+      <br><input type="radio" name="Students" value="300+ students">300+ students
+<p>What advising activities do you engage in most frequently? (check all that apply)
+  <br><input type="checkbox" name="Course selection">Course selection
+  <br><input type="checkbox" name="Mentoring">Mentoring
+  <br><input type="checkbox" name="Career/Professional School help">Career/Professional School help
+  <br><input type="checkbox" name="Decision-making">Decision-making
+  <br><input type="checkbox" name="Academic procedures">Academic procedures
+  <br><input type="checkbox" name="Other">Other <input type="text"name="Other Activity"size="50"maxlength="250">
+  <p>What is your perception of student satisfaction with advising?
+    <br><input type="radio" name="Satisfaction" value="Students are very satisfied with the advising process"checked>Students are very satisfied with the advising process
+    <br><input type="radio" name="Satisfaction" value="Students do not have an opinion on the advising process">Students do not have an opinion on the advising process
+    <br><input type="radio" name="Satisfaction" value="Students are not satisfied with the advising process">Students are not satisfied with the advising process
+    <br><input type="radio" name="Satisfaction" value="I have never received student feedback on advising">I have never received student feedback on advising
+  <p>What are the biggest challenges in advising? (check all that apply)
+      <br><input type="checkbox" name="Lack of training">Lack of training
+      <br><input type="checkbox" name="Better, or more streamlined technology/online tools">Better, or more streamlined technology/online tools
+      <br><input type="checkbox" name="No research or data on best practices">No research or data on best practices
+      <br><input type="checkbox" name="Students who don't take advantage of advising">Students who don't take advantage of advising
+      <br><input type="checkbox" name="Unprepared students">Unprepared students
+      <br><input type="checkbox" name="Complex academic policies and procedures">Complex academic policies and procedures
+      <br><input type="checkbox" name="Departmental Advising System">Departmental Advising System
+      <br><input type="checkbox" name="Other">Other <input type="text"name="Other Challenge"size="50"maxlength="300">
+  <p>In what capacity do you think faculty should be involved in advising?
+    <br><input type="radio" name="Faculty Advising" value="Should share advising responsibilities across the department"checked>Should share advising responsibilities across the department
+    <br><input type="radio" name="Faculty Advising" value="Mentor capacity only">Mentor capacity only
+    <br><input type="radio" name="Faculty Advising" value="Not involved at all">Not involved at all
+  <p>If the University held advising workshops on campus, would you attend?
+    <br><input type="radio" name="Workshops" value="Yes"checked>Yes
+    <br><input type="radio" name="Workshops" value="No">No
+    <p>Would you participate in a Mentor Program for advisors?
+      <br><input type="radio" name="Mentoring" value="Yes"checked>Yes
+      <br><input type="radio" name="Mentoring" value="No">No
+      <p>
+      <input type="submit" value="Submit">
+      <input type="reset">
+    </p>
+    </form>
+</body></font>
+</html>
